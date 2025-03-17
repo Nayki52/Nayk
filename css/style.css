@@ -191,7 +191,7 @@ h2 {
   padding: 49px 13px 29px;
   box-sizing: border-box;
   border-radius: 15px;
-  width: 255px;
+  max-width: 260px;
   min-height: 292px;
   box-shadow: 0 14px 0 -5px #7b54b2, 0 30px 0 -13px #533978;
   background: linear-gradient(
@@ -210,7 +210,7 @@ h2 {
   padding: 49px 13px 29px;
   box-sizing: border-box;
   border-radius: 15px;
-  min-width: 255px;
+  max-width: 260px;
   min-height: 292px;
   box-shadow: 0 14px 0 -5px #9159b1, 0 30px 0 -13px #61337c;
   background: linear-gradient(
@@ -229,7 +229,7 @@ h2 {
   padding: 49px 13px 29px;
   box-sizing: border-box;
   border-radius: 15px;
-  min-width: 255px;
+  max-width: 260px;
   min-height: 292px;
   box-shadow: 0 14px 0 -5px #b95a4c, 0 30px 0 -13px #732f26;
   background: linear-gradient(
@@ -457,4 +457,8 @@ hr {
 
 .footer {
   padding-bottom: 50px;
+}
+
+.td-a:hover {
+  color: #c3b5b5;
 }
